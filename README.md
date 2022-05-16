@@ -1,11 +1,35 @@
 # PersonalResume
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+#### 个人信息
+姓名：孙科帆
+联系电话：17603452718
+邮箱：17603452718@163.com
+学历：大专
 
-#### 软件架构
+
+#### 技术栈
+1.熟练使用Spring Boot, JPA, Mybatis, Spring Cloud, Spring Alibaba Nacos, Feign/OpenFeign, Hysrix
+2.熟练使用Mysql, Redis, 
+3.熟练使用Kubernetes, Docker, 自研搭建 Gitlab, Jenkins 自动化CI/CD
+4.熟练使用ActiveMq, RabbitMq, 
+5.熟练使用Nginx，精通原理
+6.阿里云常用业务RDS/Redis/CDN/RTC/SMS/SLS/Kubernetes/Oss/ContainerRegistry
+7.熟悉Google/FaceBoot/QQ/Wechat/ 登陆接入, Google Pay/Ali Pay/Wechat Pay 支付接入
+8.熟悉EMQx使用
+9.熟练使用Thift, ProtoBuf
+10.熟悉JVM底层原理
+11.了解go语言, 基础语法等。 学习ing...
+
+
+#### 项目经历
+
+1.BerryLive
+2.SugarLive
+3.渭南市企业码
+4.西电集团MES自动化车间管理系统
+5.中铁项目安全教育平台
+6.mEasy-pay
+
 软件架构说明
 
 
