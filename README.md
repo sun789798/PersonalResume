@@ -37,11 +37,18 @@
 
 1.BerryLive
 技术点: SpringBoot, Redis, RabbitMq, EMQX, Thift, Mysql, OpenResty, Mybatis, Kubernetes, Docker, Cerberus(自研Rpc)
-项目介绍: BerryLive 为海外用户1V1交友平台，主要地区为印尼、东南亚地区，其次面向全球提供服务，主播主要为东南亚地区主播，目前已上线海外各大手机平台市场、GooglePlay 市场（https://play.google.com/store/apps/details?id=com.mt.hookg）,功能包括1v1音视频通话，送礼物，看直播，Im聊天,排行榜，钱包（集成GooglePay/东南亚地区渠道商支付PayerMax、XenditPay,CODA_PAY,GoAllPay）,用户关系等。
-
-
-
+项目介绍: BerryLive 为海外用户1V1交友平台，主要地区为印尼、东南亚地区，其次面向全球提供服务，主播主要为东南亚地区主播，目前已上线海外各大手机平台市场、GooglePlay 市场（https://play.google.com/store/apps/details?id=com.mt.hookg）,功能包括1v1音视频通话，送礼物，看直播，Im聊天,排行榜，个人动态，钱包（集成GooglePay/东南亚地区渠道商支付PayerMax、XenditPay,CODA_PAY,GoAllPay）,用户关系等。
+技术栈方面-后端采用Thift-Rpc作为远程通信协议，使用k8s做为注册中心，实现服务注册发现，自研im聊天系统，集成emqx消息服务器，单机同时在线可达2500+，扩展通过K8s scale 横向扩展资源。
+应用部署-采用Gitlab-ci 实现自动化部署应用
+项目定位为ROI型产品，
+个人负责模块：总体负责整个app应用开发
 2.SugarLive
+技术点: SpringBoot, Redis, RabbitMq, EMQX, Thift, Mysql, OpenResty, Mybatis, Kubernetes, Docker, Cerberus(自研Rpc)
+项目介绍: SugarLive 为海外用户直播平台，主要地区为印尼、东南亚地区，其次面向全球提供服务，主播主要为东南亚地区主播，目前已上线海外各大手机平台市场、GooglePlay 市场（ps.暂时下架）,功能包括直播，连麦，pk，送礼物，Im聊天,排行榜，钱包（集成GooglePay/东南亚地区渠道商支付PayerMax、XenditPay,CODA_PAY,GoAllPay）,用户关系等。
+个人负责模块：总体负责整个app应用开发
+
+
+
 3.渭南市企业码
 4.西电集团MES自动化车间管理系统
 5.中铁项目安全教育平台
