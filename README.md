@@ -7,6 +7,17 @@
 学历：大专
 
 
+#### 职业经历
+2017.10-2018.07(实习)
+职位：Java开发工程师
+北京展宏软通科技有限公司
+2018.08-2020.08
+职位：Java开发工程师，Java技术组长
+西安维恩智联科技有限公司
+2020.11-至今
+职位：Java开发工程师
+广州麦田网络科技有限公司
+
 #### 技术栈
 1.熟练使用Spring Boot, JPA, Mybatis, Spring Cloud, Spring Alibaba Nacos, Feign/OpenFeign, Hysrix
 2.熟练使用Mysql, Redis, 
@@ -19,11 +30,17 @@
 9.熟练使用Thift, ProtoBuf
 10.熟悉JVM底层原理
 11.了解go语言, 基础语法等。 学习ing...
+12.熟悉Linux系统(Ubuntu,Centos)
 
 
 #### 项目经历
 
 1.BerryLive
+技术点: SpringBoot, Redis, RabbitMq, EMQX, Thift, Mysql, OpenResty, Mybatis, Kubernetes, Docker, Cerberus(自研Rpc)
+项目介绍: BerryLive 为海外用户1V1交友平台，主要地区为印尼、东南亚地区，其次面向全球提供服务，主播主要为东南亚地区主播，目前已上线海外各大手机平台市场、GooglePlay 市场（https://play.google.com/store/apps/details?id=com.mt.hookg）,功能包括1v1音视频通话，送礼物，看直播，Im聊天,排行榜，钱包（集成GooglePay/东南亚地区渠道商支付PayerMax、XenditPay,CODA_PAY,GoAllPay）,用户关系等。
+
+
+
 2.SugarLive
 3.渭南市企业码
 4.西电集团MES自动化车间管理系统
