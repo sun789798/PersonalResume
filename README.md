@@ -1,87 +1,96 @@
 # PersonalResume
 
-#### 个人信息
-姓名：孙科帆
-联系电话：17603452718
-邮箱：17603452718@163.com
-学历：大专
+### 个人信息
+#####姓名： **孙科帆**
+#####联系电话：**17603452718**
+#####邮箱：**17603452718@163.com**
+#####学历：**大专**
+#####工作经验：**4年9个月**
 
 
 #### 职业经历
-2017.10-2018.07(实习)
+#####2017.10-2018.07(实习)
 职位：Java开发工程师
-北京展宏软通科技有限公司
-2018.08-2020.08
-职位：Java开发工程师，Java技术组长
-西安维恩智联科技有限公司
-2020.11-至今
+#####北京展宏软通科技有限公司
+#####2018.08-2020.08
+职位：Java开发工程师、Java技术组长
+#####西安维恩智联科技有限公司
+#####2020.11-至今
 职位：Java开发工程师
-广州麦田网络科技有限公司
+#####广州麦田网络科技有限公司
 
 #### 技术栈
-1.熟练使用Spring Boot, JPA, Mybatis, Spring Cloud, Spring Alibaba Nacos, Feign/OpenFeign, Hysrix
-2.熟练使用Mysql, Redis, 
-3.熟练使用Kubernetes, Docker, 自研搭建 Gitlab, Jenkins 自动化CI/CD
-4.熟练使用ActiveMq, RabbitMq, 
-5.熟练使用Nginx，精通原理
-6.阿里云常用业务RDS/Redis/CDN/RTC/SMS/SLS/Kubernetes/Oss/ContainerRegistry
-7.熟悉Google/FaceBoot/QQ/Wechat/ 登陆接入, Google Pay/Ali Pay/Wechat Pay 支付接入
-8.熟悉EMQx使用
-9.熟练使用Thift, ProtoBuf
-10.熟悉JVM底层原理
-11.了解go语言, 基础语法等。 学习ing...
-12.熟悉Linux系统(Ubuntu,Centos)
+#####1.熟练使用Spring Boot, JPA, Mybatis, Spring Cloud, Spring Alibaba Nacos, Feign/OpenFeign, Hysrix
+#####2.熟练使用Mysql, Redis， 对sql分析，锁事务，并发有一定理解。
+#####3.熟练使用Kubernetes, Docker, 自研搭建 Gitlab, Jenkins 自动化CI/CD
+#####4.熟练使用ActiveMq, RabbitMq
+#####5.熟练使用Nginx，OpenResty，精通原理
+#####6.熟系常用负载均衡技术，ngixn、slb等
+#####7.阿里云常用业务RDS/Redis/CDN/RTC/SMS/SLS/Kubernetes/Oss/ContainerRegistry
+#####8.熟系分布式架构，分词搜索技术 solr、Es等，有实战应用
+#####9.熟悉Google/FaceBoot/QQ/Wechat 登陆接入, Google Pay/Ali Pay/Wechat Pay 支付接入
+#####10.熟练使用EMQx.
+#####11.熟练使用Thift, ProtoBuf
+#####12.熟悉JVM底层原理
+#####13.了解go语言, 基础语法等。 学习ing...
+#####14.熟练使用Linux系统(Ubuntu,Centos)，部署等。
+#####15.熟练使用设计模式对已有代码做重构，优化流程。
+
+#### 开发工具
+Git, IDEA, Datarip
+
+# 项目经历
+
+##1.BerryLive
+#####技术点: SpringBoot, Redis, RabbitMq, EMQX, Thift, Mysql, OpenResty, Mybatis, Kubernetes, Docker, Cerberus(自研Rpc)
+#####项目介绍: BerryLive 为海外用户1V1交友平台，主要地区为印尼、东南亚地区，其次面向全球提供服务，主播主要为东南亚地区主播，目前已上线海外各大手机平台市场、GooglePlay 市场（https://play.google.com/store/apps/details?id=com.mt.hookg）,功能包括1v1音视频通话，送礼物，看直播，Im聊天,排行榜，个人动态，钱包（集成GooglePay/东南亚地区渠道商支付PayerMax、XenditPay,CODA_PAY,GoAllPay）,用户关系等。
+
+#####技术栈:
+      1.后端采用Thift-Rpc作为远程通信协议，使用k8s做为注册中心，实现服务注册发现，自研im聊天系统，集成emqx消息服务器，单机同时在线可达2500+，扩展通过K8s scale 横向扩展资源。
+      2.应用部署-采用Gitlab-ci 实现自动化部署应用
+      3.应用运行采用docker+k8s做持续发布滚动更新。
+#####ps.技术栈方面基础架构 项目1，2，3 相同。
+
+#####个人负责模块：总体负责整个app应用开发
+
+##2.SugarLiveG(Dream Live)
+#####技术点: SpringBoot, Redis, RabbitMq, EMQX, Thift, Mysql, OpenResty, Mybatis, Kubernetes, Docker, Cerberus(自研Rpc)
+#####项目介绍: SugarLive 为海外用户直播平台，主要地区为印尼、东南亚地区，其次面向全球提供服务，主播主要为东南亚地区主播，目前已上线海外各大手机平台市场、GooglePlay 市场（ps.暂时下架）,功能包括直播，连麦，pk，送礼物，Im聊天,排行榜，钱包（集成GooglePay/东南亚地区渠道商支付PayerMax、XenditPay,CODA_PAY,GoAllPay）,用户关系等。
+#####个人负责模块：参与app应用开发
+
+##3.MangoLive
+#####技术点: SpringBoot, Redis, RabbitMq, EMQX, Thift, Mysql, OpenResty, Mybatis, Docker Swarm(已迁移k8s), Docker, Cerberus(自研Rpc)
+#####项目介绍: MangoLive 为海外娱乐直播平台，主要地区为印尼、东南亚地区，地区排行榜前十产品，在基础直播业务基础上，率先研发pk 直播，连麦的首个项目，直播间各种交互型活动，用户榜单，送礼，Q2季度已完成多人语音研发（暂未上线）。
+#####个人负责模块：直播活动线业务为主研发，app技术支持
+
+##4.渭南市企业码
+ #####渭南企业码项目主要为服务于渭南企业的一个项目，项目初衷主要为政府帮助企业快速发展，对企业针对性提供便利，针对不同行业，不同规模企业精准推送不同的政策，帮助企业了解最新的政策，解决企业发展过程中的痛点，项目分为企业码 app 端，WEB 管理端
+ #####负责模块:企业模块，政策模块，用户模块，web 端系统、部署。
+ #####技术栈 SpringBoot、SpringCloud、docker，redis
+ #####1.负责 app 端和 web 端架构，app 端架构采用 spring cloud 微服务形式，目前服务仅拆分了用户和企业服务，web 端采用开源 GVP 项目 RUOYI，加快开发效率。
+ #####2.负责企业数据的接入，配合第三方 api 接口服务，保证注册企业的真实有效，收集企业的基本信息，将企业归类。
+ #####3.政策模块，根据 WEB 端管理系统，将政策录入后，存至 ES 中，为 app 端企业用户推送相关政策。
+ #####4.WEB 端管理系统主要为管理 app 端使用用户，企业管理，用户管理、政策管理、标签管理、权限管理等。
+ #####5.项目部署，本地化开发环境部署采用 docker-jenkins 自动化 ci，生产环境无状态应用采用docker部署。
+ 
+##5.西电集团MES自动化车间管理系统
+#####项目主要为西安高压电气化研究所做的一个 MES 系统，核心作用为将客户生产车间整个过程记录下来，并可以对客户订单进行生产排程，提供一个可依据的生产排程系统，记录生产过程中所发生的所有环节。
+#####负责模块: 基础数据管理（班组、班次、日历、工位、工序、产线）、PBOM 管理、工体卡片、工单排程。
+#####技术栈：SpringBoot、SpringCloud、JDK1.8
+#####负责模块:基础数据管理（班组、班次、日历、工位、工序、产线）、PBOM 管理、工体卡片、工单排程。
+    1.基础数据管理提供整个 MES 系统基础数据录入，将客户实际的工作情况进行数据化录入，将基础数据维护好后，进行后续的操作。
+    2.PBOM 管理为 MES 系统结合物料、工艺路线的一个模块，根据物料、设计图、可最终生产为一个最终产品，PBOM 起到关键作用。
+    3.工艺卡片模块为录入客户提供的产品生产环节，比如生产一个产品需要几道工序内容，各   个物料需要达到什么标准，工序用时需要多久。
+    4.工单排程为整个 MES 系统的核心模块，排程涉及整个系统的基础模块数据，将产线、班组、工位、班次、日历数据抽取上来后得出具体某个产线又几个工位、几个班组、几个班次、日   历具体多会上班等，得出工人上下班的时间，之后根据系统的 MBOM 模块生产进行生产，这块难点在于将已知工单所需时间合理安排在工人上班时间内，最终使用了二维矩阵的数据结构实现合理安排排程，误差控制在客户允许范围内 5 分钟，最终 生成甘特图形式的数据展示效果。
+#####6.中铁项目安全教育平台
+#####项目客户甲方为中铁十二局第四有限公司，旨在搭建一个集团内部使用的一个安全性的系统，集团内部各个项目部上传分享自己工作中遇到的问题及安全隐患，工程人员能够进行相互的交流和沟通，同时对每天项目上的安全会议进行记录等。
+#####技术栈：SpringBoot、SpringCloud、JDK1.8
+#####负责模块:项目搭建、对接企业微信登录、OBS 文件上传、CDN 站内加速、视频转码、业务模块编码开发（任务巡检、资料搜索、等）
+    1.前期项目搭建主要对系统使用人数访问量及生产环境服务器配置相关进行分析后采用的SpringBoot +Mybatis 搭建。
+    2.使用用户集中为中铁十二局公司企业微信内部人员，登录方式分为企业微信内第三方应用自动登录及网页端扫码登录，前期负责调研对接企业微信接口 API,并缓存微信颁发的微信凭证。
+    3.CDN 模块搭建，主要为十二局全国各地的工程人员查看资料时能够加速访问，主要对存储OBS 文件进行访问加速。
 
 
-#### 项目经历
+# 自我评价
+   性格开朗，乐于和同事之间交流技术，具备良好的沟通协调理解能力，可承受较大工作压力，有从事多年的java开发工作，个人热爱技术，乐于探索技术，通过不断的工作积累，个人定制OKR、达到目的性学习和工作内容达成，重复review工作内容，优化自我代码水平，闲暇时间也会学习一些其他的语言，复用对比提高自己的技术水平，软件架构方面始终遵循程序开发设计准则，勤于思考工作中的问题，复杂问题进行多样化解决。
 
-1.BerryLive
-技术点: SpringBoot, Redis, RabbitMq, EMQX, Thift, Mysql, OpenResty, Mybatis, Kubernetes, Docker, Cerberus(自研Rpc)
-项目介绍: BerryLive 为海外用户1V1交友平台，主要地区为印尼、东南亚地区，其次面向全球提供服务，主播主要为东南亚地区主播，目前已上线海外各大手机平台市场、GooglePlay 市场（https://play.google.com/store/apps/details?id=com.mt.hookg）,功能包括1v1音视频通话，送礼物，看直播，Im聊天,排行榜，个人动态，钱包（集成GooglePay/东南亚地区渠道商支付PayerMax、XenditPay,CODA_PAY,GoAllPay）,用户关系等。
-技术栈方面-后端采用Thift-Rpc作为远程通信协议，使用k8s做为注册中心，实现服务注册发现，自研im聊天系统，集成emqx消息服务器，单机同时在线可达2500+，扩展通过K8s scale 横向扩展资源。
-应用部署-采用Gitlab-ci 实现自动化部署应用
-项目定位为ROI型产品，
-个人负责模块：总体负责整个app应用开发
-2.SugarLive
-技术点: SpringBoot, Redis, RabbitMq, EMQX, Thift, Mysql, OpenResty, Mybatis, Kubernetes, Docker, Cerberus(自研Rpc)
-项目介绍: SugarLive 为海外用户直播平台，主要地区为印尼、东南亚地区，其次面向全球提供服务，主播主要为东南亚地区主播，目前已上线海外各大手机平台市场、GooglePlay 市场（ps.暂时下架）,功能包括直播，连麦，pk，送礼物，Im聊天,排行榜，钱包（集成GooglePay/东南亚地区渠道商支付PayerMax、XenditPay,CODA_PAY,GoAllPay）,用户关系等。
-个人负责模块：总体负责整个app应用开发
-
-
-
-3.渭南市企业码
-4.西电集团MES自动化车间管理系统
-5.中铁项目安全教育平台
-6.mEasy-pay
-
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
